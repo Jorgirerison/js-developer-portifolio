@@ -1,0 +1,24 @@
+
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;  
+    /*comando que aplica responsividade em relação aos itens, de maneira a joga-lós para onde tem espaço*/
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    font-weight: 700;
+}
+
+.languages li i {
+    margin-right: .25rem;
+}
